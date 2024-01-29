@@ -1,0 +1,57 @@
+===========================================================================
+Model type                                                         Gaussian
+Number of observations:                                                 585
+Number of covariates:                                                     6
+
+Global Regression Results
+---------------------------------------------------------------------------
+Residual sum of squares:                                            742.704
+Log-likelihood:                                                    -899.895
+AIC:                                                               1811.789
+AICc:                                                              1813.983
+BIC:                                                              -2946.459
+R2:                                                                   0.167
+Adj. R2:                                                              0.160
+
+Variable                              Est.         SE  t(Est/SE)    p-value
+------------------------------- ---------- ---------- ---------- ----------
+Intercept                           -0.993      0.184     -5.401      0.000
+Mean segment angle                   0.002      0.001      1.894      0.058
+Secondary density                    0.063      0.010      6.523      0.000
+Other density                        0.024      0.005      4.678      0.000
+Ped density                          0.025      0.005      4.642      0.000
+Dead end density                     0.943      0.224      4.218      0.000
+
+Geographically Weighted Regression (GWR) Results
+---------------------------------------------------------------------------
+Spatial kernel:                                           Adaptive bisquare
+Bandwidth used:                                                      59.000
+
+Diagnostic information
+---------------------------------------------------------------------------
+Residual sum of squares:                                            171.981
+Effective number of parameters (trace(S)):                          126.510
+Degree of freedom (n - trace(S)):                                   458.490
+Sigma estimate:                                                       0.612
+Log-likelihood:                                                    -471.993
+AIC:                                                               1199.006
+AICc:                                                              1270.799
+BIC:                                                               1756.431
+R2:                                                                   0.807
+Adjusted R2:                                                          0.754
+Adj. alpha (95%):                                                     0.002
+Adj. critical t value (95%):                                          3.053
+
+Summary Statistics For GWR Parameter Estimates
+---------------------------------------------------------------------------
+Variable                   Mean        STD        Min     Median        Max
+-------------------- ---------- ---------- ---------- ---------- ----------
+X0                        0.793      2.519     -2.980      0.008     12.432
+X1                        0.003      0.006     -0.004     -0.000      0.042
+X2                        0.071      0.095     -0.007      0.022      0.419
+X3                        0.001      0.014     -0.083     -0.000      0.048
+X4                        0.002      0.014     -0.039      0.001      0.102
+X5                       -1.287      3.923    -15.727      0.036      3.832
+===========================================================================
+
+None

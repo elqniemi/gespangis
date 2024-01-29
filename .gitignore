@@ -1,0 +1,7 @@
+*.gpkg
+*.csv
+cell_stats/*
+route_averages/*
+*.geojson
+*.qmd
+*.qgz
